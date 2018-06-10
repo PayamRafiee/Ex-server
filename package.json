@@ -3,9 +3,29 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js"
+  },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
     "express": "^4.16.3",
-    "mongoose": "^5.1.4"
+    "jsonwebtoken": "^8.2.2",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.4",
+    "validator": "^10.3.0"
+  },
+  "engines": {
+    "node": "8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "expect": "1.20.2",
+    "mocha": "3.0.2",
+    "nodemon": "1.10.2",
+    "prettier": "^1.13.5",
+    "supertest": "2.0.0"
   }
 }
